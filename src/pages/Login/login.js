@@ -34,7 +34,12 @@ function Login() {
 
       localStorage.setItem("user", JSON.stringify(userData));
       setIsLogin(true);
-      navigate("/");
+
+      if (account.role === "admin") {
+        navigate("/dashboard");
+      } else {
+        navigate("/");
+      }
     } else {
       setError("Email hoặc mật khẩu không chính xác!");
     }
