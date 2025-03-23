@@ -1,0 +1,177 @@
+.banner {
+  width: 100%;
+  min-height: 700px;
+  padding-top: 50px;
+  background-color: #fffaf4;
+}
+
+.banner-subSlogan {
+  color: #007aff;
+}
+
+.banner-slogan {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.banner-btn-link {
+  margin-top: 50px;
+}
+.banner-btn {
+  position: relative;
+  border-radius: 54px;
+  border: 1px solid #066ccb;
+  font-weight: 500;
+  z-index: 1;
+  line-height: 1;
+  text-transform: capitalize;
+  padding: 10px 32px;
+  justify-content: center;
+}
+
+.banner-btn--left {
+  background-color: #066ccb;
+  color: #fff;
+}
+.banner-btn--right {
+  margin-left: 20px;
+  color: #066ccb;
+}
+
+.banner-thumb {
+  position: relative;
+}
+
+.banner-thumb-img{
+  width: 550px;
+  height: 570px;
+  border-radius: 12px;
+}
+
+
+.banner-box {
+  position: absolute;
+  min-width: 230px;
+  min-height: 80px;
+  inset-block-start: 50px;
+  animation: upDown 4s linear infinite;
+  background-color: #fff;
+  z-index: 1;
+  border-radius: 14px;
+  padding: 12px 24px;
+  animation-delay: 4.5s;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+.banner-box.banner-box--one {
+    top: 6%;
+    left: -4%;
+    animation: upDownOne 4s linear infinite; /* Animation cho box-one */
+  }
+  
+  .banner-box.banner-box--two {
+    top: 70%;
+    left: -4%;
+    display: flex;
+    align-items: center;
+    animation: upDownTwo 5s linear infinite; /* Animation cho box-two */
+  }
+  
+  .banner-box.banner-box--three {
+    top: 52%;
+    right: -4%;
+    display: flex;
+    align-items: center;
+    animation: upDownThree 6s linear infinite; /* Animation cho box-three */
+  }
+
+.tutor-img {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  height: auto;
+  max-width: 100%;
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+  transition: 0.2s linear;
+  vertical-align: middle;
+}
+
+.enrolled-tutor {
+  margin-top: 5px;
+}
+.enrolled-tutor img:not(:first-child) {
+  margin-inline-start: -24px;
+}
+
+.box-two--icon,
+.box-three--icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.box-two--icon {
+  background-color: #5f24f4;
+}
+
+
+
+.banner-discount, .banner-phone {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.box-three--icon {
+ 
+  background-color: #e2f0fe;
+}
+
+
+.banner-phone {
+    font-size: 20px
+}
+
+
+
+@keyframes upDownOne {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px); /* Di chuyển lên 20px */
+    }
+    100% {
+      transform: translateY(0); /* Trở lại vị trí ban đầu */
+    }
+  }
+  
+  @keyframes upDownTwo {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(30px); /* Di chuyển xuống 30px */
+    }
+    100% {
+      transform: translateY(0); /* Trở lại vị trí ban đầu */
+    }
+  }
+  
+  @keyframes upDownThree {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(15px); /* Di chuyển lên 15px */
+    }
+    100% {
+      transform: translateY(0); /* Trở lại vị trí ban đầu */
+    }
+  }

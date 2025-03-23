@@ -1,0 +1,100 @@
+.header {
+  min-height: 98px;
+  border-bottom: 1px solid #f0f0f0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: #fff;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.header-logo--img {
+  width: 220px;
+  height: 98px;
+}
+
+.header-nav {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.header-nav--list {
+  display: block;
+  border-radius: 4px;
+  transition: 0.2s linear;
+  position: relative;
+}
+
+.header-nav--list a {
+  text-decoration: none;
+  color: #000;
+  padding-inline-end: 20px;
+}
+
+.header-nav--list a.action {
+  color: #066ccb;
+}
+
+.header-user {
+  display: flex;
+  align-items: center;
+}
+.header-signup,
+.header-signin {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+.header-signup:hover {
+  text-decoration: underline;
+}
+.header-signin:hover {
+  text-decoration: underline;
+}
+
+.header-user--avatar {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.header-user--avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.header-user--tooltip {
+  color: #000;
+}
+.header-user--list {
+  list-style-type: none;
+  padding: 0;
+}
+.header-user--item {
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+}
+
+.header-user--item:hover {
+  background-color: #dddd;
+  cursor: pointer;
+}
+
+.ant-tooltip .ant-tooltip-inner {
+  min-width: 200px !important;
+  padding: 0 !important;
+}

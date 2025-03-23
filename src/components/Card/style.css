@@ -1,0 +1,73 @@
+
+
+.card-wrapper {
+    width: 100%;
+    min-height: 500px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.card-img {
+    width: 100%;
+    height: 250px;
+    
+}
+
+.card-img img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.card-info {
+    padding: 20px;
+}
+
+.tutor-name {
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #000;
+}
+
+.card-edu {
+    height: 100px;
+}
+.card-edu p {
+    margin: 0;
+}
+
+.card-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #000;
+
+}
+
+.card-group--item {
+    display: flex;
+    align-items: center;
+}
+
+.card-group--item span {
+    margin-left: 5px;
+}
+
+.card-link {
+    display: flex;
+    align-items: center;
+    color: #0d6efd;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+.card-link span {
+    margin-right: 10px;
+}

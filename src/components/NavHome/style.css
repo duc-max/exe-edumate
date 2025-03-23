@@ -1,0 +1,64 @@
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 50px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.nav-filter {
+  width: 400px;
+}
+
+:where(.css-dev-only-do-not-override-240cud).ant-select-outlined:not(
+    .ant-select-customize-input
+  )
+  .ant-select-selector {
+  background-color: #0d6efd;
+  width: 170px;
+  height: 50px;
+  border-radius: 50px;
+}
+.ant-select-selection-placeholder {
+  color: white !important;
+}
+
+.ant-select-arrow {
+  color: white !important;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 50px;
+    border: 1px solid #bfbfbf;
+    border-radius: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.nav-search--input {
+    width: 85%;
+    height: 100%;
+    margin-left: 20px;
+    background-color: transparent;
+}
+
+.nav-search--button {
+    flex-grow: 1;
+    height: 100%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+}

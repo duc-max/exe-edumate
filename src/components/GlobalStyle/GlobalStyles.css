@@ -1,0 +1,30 @@
+@import "normalize.css";
+
+
+:root {
+  --primary: #fe2c55;
+  --default-layout-header-height: 60px;
+  --text-color: #161823;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 62.5%; */
+}
+
+
+button,
+input {
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}

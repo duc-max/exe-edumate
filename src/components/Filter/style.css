@@ -1,0 +1,17 @@
+
+
+.filter-tutor  {
+    width: 100%;
+    min-height: 200px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.filter-input--block span {
+    margin-left: 10px;
+}
+
+.filter-input--block input:hover {
+    cursor: pointer;
+}
